@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="prod.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/prod.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:100,300,600,800,900;">
     <title>prodlow</title>
 </head>
 <body>
-<header>
-</header>
+        <header id="header">
+                <nav id="navigation">
+                    <img id="logo" src="assets/img/sample-logo.png" width="200px" />
+                    <ul>
+                        <a href="index.html"><li>Home</li></a> 
+                        <a href="about-us.html"><li>About Our Store</li></a> 
+                        <a href="faq.html"><li>FAQ</li></a> 
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="penahan"></div>
 
 <div class="gambar">
-    <img src="prod4.jpg" alt="lowpc">
+    <img src="assets/img/prod4.jpg" alt="lowpc">
 </div> 
 
 <div class="penjelasan"> 
     <p>
     <h2 class="namaproduk"> ibuypower rdy elibg207 </h2>
-    <ul>
+    <ul class="detilproduk">
         <li>CPU: Core i3-9100f (4.2GHz Overclocked)</li>
         <li>Graphics: NVIDIA GeForce GTX 1660</li>
         <li>Motherboard: ASUS ROG Strix Z390-I Gaming </li>
@@ -25,16 +36,18 @@
     </ul>
     <p>IDR 15.000.000</p>
     <form method="get" action="">
-    <button class="button" type="submit" formaction="/action_page2.php" style="vertical-align:middle"><span>Order</span>
+    <button class="button" type="submit" formaction="order.html" style="vertical-align:middle"><span>Order</span>
     </button>
     </form>
     </p>
 </div>
            
 
-<footer>
-
-</footer>
+<footer class="footer bg-white">
+        <div class="flex-center text-black">
+            <span>Copyright&copy 2019, computerlux</span>
+        </div>
+    </footer>
 
 </body>
 
