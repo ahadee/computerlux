@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', serif;
+	background-color: #F2F2F2;
+}
+
+/* Header */
+
+#header{
+	padding: 10px 40px;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	display: inline;
+	box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+	z-index: 10;
+	top: 0;
+}
+#header img{
+	display: inline-block;
+	float: left;
+}
+#header #navigation a {
+	text-decoration: none;
+	color: black;
+}
+#header #navigation a:hover{
+	color: rgba(0,0,0,.7);
+}
+#navigation ul li {
+	display: inline;
+	float: left;
+	padding: 8px;
+	margin-left: 20px;
+}
+#main {
+	position: relative;
+	top: 80px;
+	margin: 10px 40px;
+}
+#order-by {
+	background-color: white;
+	height: calc(1.68125rem + 2px);
+	padding: 0.25rem 0.5rem;
+	font-size: .7875rem;
+	line-height: 1.5;
+	border-radius: .2rem;
+}
+/* main */
+
+
+#products {
+	position: relative;
+	top: 80px;
+    display: flex;
+    justify-content: center;
+    /*margin-bottom: 20px;*/
+}
+.box-200 {
+    max-width: 400px;
+    max-height: 500px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+}
+.product {
+    background-color: #fff;
+    cursor: pointer;
+}
+.product:hover{
+    box-shadow: 2px 10px 10px rgb(136, 136, 136, 0.5);
+}
+.product img {
+    width: 400px;
+    height: 350px;
+
+}
+.product .container div, .product .container p {
+    padding: 5px;
+}
+.title h2 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.title a {
+	text-decoration: none;
+	color: black;
+}
+
+.inline {
+    display: inline;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.product-disc span {
+    font-size: 15px;
+}
+.product-disc {
+    margin: auto;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    width: 70px;
+    
+    /* width: 50=0%; */
+}
+
+.product-disc a:link, a:visited {
+	/* background-color: #f44336; */
+	color: white;
+	/* padding: 14px 25px; */
+	/* text-align: center; */
+	text-decoration: none;
+	/* display: inline-block; */
+}
+
+.product-disc a:hover, a:active {
+	color: rgba(0, 0, 0, 0.555);
+  }
+
+/* Footer */
+
+.bg-white {
+	background-color: white;
+	bottom: 0;
+}
+
+.text-white {
+	color: snow;
+}
+
+.text-black {
+	color: black;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.footer {
+	margin-top: 80px;
+	padding: 30px 50px;
+	box-shadow: 0px -5px 5px rgba(136, 136, 136, 0.5);
+}
+
+.flex-center {
+	/*position: relative;*/
+	display: flex;
+	justify-content: center;
+}
