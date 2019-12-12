@@ -1,0 +1,55 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+}
+
+.sidebar {
+    display: block;
+    padding: 0 0.5em 0 0;
+    background-image: url("Sidebar.jpg");
+    width: 13%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    filter: drop-shadow(0.3em 0 5px rgb(114, 114, 114));
+}
+
+.border {
+    padding: 0 0 0 0;
+    height: 100%;
+    border-style: solid;
+    border-width: 0px 0.1em 0px 0px;
+    position: absolute;
+}
+
+.nav {
+    margin-bottom: 14em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+body section div div a img {
+    max-width: 85%;
+    padding: 0.5em;
+    filter: invert();
+}
+
+.content{
+    width: 75%;
+    height: auto;
+    float: right;
+    position: static;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.about {
+    font-size: 1.5em;
+}

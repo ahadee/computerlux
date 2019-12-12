@@ -1,0 +1,76 @@
+.gambar img {
+    float : left;
+    width:55%; 
+    height:auto; 
+    margin-left:10px;
+    margin-right:40px;
+}
+
+.penjelasan {
+    font-size:30px;
+    display: inline
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: lightslategray;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    padding-bottom: 15px;
+    border-bottom:1px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  body {
+    background-color : "#E6E6FA"
+  }
+
+  .penjelasan {
+
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+  }
+
+  .namaproduk {
+      border-style : solid;
+      border-width: 0px 0px 5px 0px;
+      display : flex;
+      font-size: 35px;
+  }
