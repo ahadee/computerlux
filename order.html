@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Pemesanan   </title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Form Pemesanan</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="Nama" placeholder="Nama Penerima" />
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>No.Handpohe:</label>
+            <input type="text" name="No.Handphone" placeholder="No. Handphone Aktif" />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="Email" placeholder="Email Aktif" />
+        </p>
+        <p>
+            <label>Jasa Kirim: Reguler</label>
+            <select name="Jasa Kirim">
+                <option value="Cahaya Logistik">Cahaya Logistik</option>
+                <option value="First Logistik">First Logistik</option>
+                <option value="Indah Logistik">Indah Logistik</option>
+                <option value="JNE">JNE</option>
+                <option value="J&T">J&T</option>
+                <option value="Ninja Express">Ninja Express</option>
+                <option value="Pandu Logistik">Pandu Logistik</option>
+                <option value="POS INDONESIA">POS INDONESIA</option>
+                <option value="RPX">RPX</option>
+                <option value="SiCepat">SiCepat</option>
+                <option value="TiKi">TiKi</option>
+                <option value="Wahana Logistik">Wahana Logistik</option>
+            </select>
+        </p>    
+        <p>
+            <label>Jasa Kirim Express (Khusus Jabodetabek):</label>
+            <select name="Jasa Kirim">
+                <option value="Go-Send">Go-Send</option>
+                <option value="Grab-Express">Grab-Express</option>
+            </select>
+        </p>
+        <p>
+            <label>Detail Alamat Pengiriman:</label>  
+        <p>
+            <label>Kantor / Rumah:</label>
+            <label><input type="radio" name="Kantor / Rumah" value="kantor" /> Kantor</label>
+            <label><input type="radio" name="Kantor / Rumah" value="rumah" /> Rumah</label>
+        </p>
+        </p>
+            <label>Nama Gedung/Komplek:</label>
+            <input type="text" name="Nama Gedung/Komplek" placeholder="Nama Gedung/Komplek"/>
+        </p>
+        <p>
+            <label>Nama Jalan:</label>
+            <input type="text" name="Nama Jalan" placeholder="Nama Jalan"/>
+        </p>
+        <p>
+            <label>Nomor Kantor/Rumah:</label>
+            <input type="text" name="Nomor Kantor/Rumah" placeholder="Nomor Kantor/Rumah"/>
+        </p>
+        <p>
+            <label>Nomor RT/RW:</label>
+            <input type="text" name="Nomor RT/RW" placeholder="Nomor RT/RW"/>
+        </p>
+        <p>
+            <label>Nama Desa/Kelurahan:</label>
+            <input type="text" name="Nama Desa/Kelurahan" placeholder="Nama Desa/Kelurahan"/>
+        </p>
+        <p>  
+            <label>Nama Kecamatan:</label>
+            <input type="text" name="Nama Kecamatan" placeholder="Nama Kecamatan"/>
+        </p>
+        <p>
+            <label>Nama Kota/Kabupaten:</label>
+            <input type="text" name="Nama Kota/Kabupaten" placeholder="Nama Kota/Kabupaten"/>
+        </p>
+        <p>
+            <label>Provinsi:</label>
+            <input type="text" name="Provinsi" placeholder="Provinsi"/>
+        </p>
+        <p>
+            <label>Kode Pos:</label>
+            <input type="text" name="Kode Pos" placeholder="Kode Pos"/>
+        </p>  
+
+        <p>
+            <label>Catatan:</label>
+            <textarea id="message" rows="9" cols="70">
+            </textarea>
+        </p>
+
+        <p>
+            <input type="submit" name="submit" value="Kirim" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+
+<style>
+    body {
+    font-family: 'Poppins', serif;
+	background-color: #F2F2F2;
+    }
+</style>
+</html>
