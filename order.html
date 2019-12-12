@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Form Pemesanan   </title>
+    <link rel="stylesheet" href="assets/css/order.css">
+    <title>Form Pemesanan</title>
 </head>
+
+
 <body>
-    <form action="contact.php" method="POST">
+<header id="header">
+        <nav id="navigation">
+            <img id="logo" src="assets/img/sample-logo.png" width="200px" />
+            <ul>
+                <a href="index.html"><li>Home</li></a> 
+                <a href="about us.html"><li>About Our Store</li></a> 
+                <a href="faq.html"><li>FAQ</li></a> 
+            </ul>
+        </nav>
+</header>
+
+<div class="penahan"></div>
+    <div>
+    <form class= "form" action="contact.php" method="POST">
         <fieldset>
-        <legend>Form Pemesanan</legend>
+            <legend>Form Pemesanan</legend>
         <p>
             <label>Nama:</label>
             <input type="text" name="Nama" placeholder="Nama Penerima" />
@@ -107,12 +122,12 @@
         </p>
         </fieldset>
     </form>
+</div>
 </body>
 
-<style>
-    body {
-    font-family: 'Poppins', serif;
-	background-color: #F2F2F2;
-    }
-</style>
+<footer class="footer bg-white">
+    <div class="flex-center text-black">
+        <span>Copyright&copy 2019, computerlux</span>
+    </div>
+</footer>
 </html>
