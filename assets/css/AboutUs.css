@@ -45,6 +45,7 @@
     position:  initial;
     z-index: 1;
     margin-right: 15%;
+    padding-bottom: 8%;
 }
 
 h1 {
@@ -112,4 +113,20 @@ footer {
 
 .people {
     max-width: 100%;
+}
+
+.faq {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-bottom: 8%;
+}
+
+.faq h1 {
+    font-size: 3em;
+}
+
+.faq p {
+    font-size: 1.5em;
 }
